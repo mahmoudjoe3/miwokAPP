@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#795548</item>
+        <item name="colorPrimaryDark">#5D4037</item>
+        <item name="colorAccent">#795548</item>
+    </style>
+
+    <style name="button">
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_height">88dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">16dp</item>
+    </style>
+    <style name="button_color1" parent="button">
+        <item name="android:background">#fd8e09</item>
+
+    </style>
+    <style name="button_color2" parent="button">
+        <item name="android:background">#379237</item>
+    </style>
+    <style name="button_color3" parent="button">
+        <item name="android:background">#8800a0</item>
+    </style>
+    <style name="button_color4" parent="button">
+        <item name="android:background">#16afca</item>
+    </style>
+    <style name="button_color5" parent="button">
+        <item name="android:background">#673AB7</item>
+    </style>
+
+    <style name="backColor">
+    <item name="android:background">#fff7da</item>
+    </style>
+
+</resources>
